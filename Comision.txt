@@ -1,0 +1,40 @@
+
+
+Comisión del Programa: Sistema de Gestión de Tienda
+El objetivo del sistema es facilitar la administración de una tienda,
+permitiendo gestionar productos (perecederos y no perecederos), registrar ventas y administrar empleados.
+Las funcionalidades principales incluyen:
+
+Gestión de Productos
+Permitir manejar distintos tipos de productos:
+
+Bebidas, que pueden ser alcohólicas o no.
+
+Productos perecederos, con fecha de caducidad.
+
+Productos no perecederos, con garantía.
+
+Cada producto tiene atributos como nombre, marca, precio, cantidad, etc.
+
+Se almacenan en un Inventario, el cual puede ser consultado.
+
+Gestión de Empleados
+Registro de empleados con nombre, contraseña, salario y puesto.
+
+Cada empleado puede registrar ventas, las cuales se asocian a su perfil.
+
+Existe un administrador de empleados que gestiona la lista total de empleados.
+
+Gestión de Ventas
+Los empleados pueden registrar ventas de productos a través de una interfaz.
+
+Cada venta contiene una lista de productos vendidos, el total, y la fecha de la operación.
+
+Las ventas se guardan por empleado.
+
+Interfaces de Usuario
+Existen menús distintos para:
+
+Empleados: pueden registrar ventas y consultar inventario.
+
+Jefes o Administradores: pueden gestionar empleados (menú protegido con código de seguridad)
